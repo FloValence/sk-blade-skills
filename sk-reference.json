@@ -1,0 +1,42 @@
+{
+  "skills": {
+    "title": {
+      "type": "text"
+    },
+    "color": {
+        "type": "color"
+    },
+    "background": {
+        "type": "link"
+    },
+    "backgroundColor": {
+        "type": "color"
+    },
+    "skills": {
+        "type": "objectArray",
+        "object": {
+            "title": {
+                "type": "text"
+            },
+            "progress": {
+                "type": "number"
+            },
+            "content": {
+                "type": "text"
+            },
+            "context": {
+                "type": "text"
+            },
+            "panel": {
+                "type": "text"
+            },
+            "striped": {
+                "type": "boolean"
+            },
+            "active": {
+                "type": "boolean"
+            }
+        }
+    }
+  }
+}
